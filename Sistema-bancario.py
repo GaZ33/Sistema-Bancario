@@ -47,10 +47,10 @@ while True:
             print("Operação inválida. O valor inserido é inválido.")
     
     elif opcao == "e":
-        print(" EXTRATO ".center(25, '#'))
+        print(" EXTRATO ".center(27, '#'))
         print(f'Não foram realizadas operações' if not extrato else extrato)
         print(f'Saldo atual: R$ {saldo:.2f}\n')
-        print("#".center(25, '#'))
+        print("#".center(27, '#'))
     
     elif opcao == "q":
         print("Saindo...")
